@@ -1,0 +1,247 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    transition: trasform 0.3s ease-in-out;
+    transform-origin: top center;
+    
+}
+
+
+header > h1{
+    position: absolute;
+    font-size: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 810px;
+    top:300px;
+    
+    
+}
+header > h3{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 930px;
+    top: 400px;
+    animation: erro 8s ease-in-out infinite;
+}
+
+div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: chartreuse;
+    
+}
+
+.bola1{
+    
+    margin-left: 1000px;
+    margin-top: 40px;
+    animation: mover 5s linear infinite;
+}
+
+.bola2{
+    
+    margin-left: 900px;
+    margin-top: 300px;
+    animation: mover 4s linear infinite;
+}
+
+.bola3{
+      
+        margin-left: 300px;
+        margin-top: 70px;
+        animation: mover 2s linear infinite;
+    }
+
+.bola4{
+        
+        margin-left:800px;
+        margin-top: 60px;
+        animation: mover 6s linear infinite;
+    }
+.bola5{
+      
+        margin-left: 700px;
+        margin-top: 90px;
+        animation: mover 3s linear infinite;
+    }
+.bola6{
+      
+        margin-left: 600px;
+        margin-top: 30px;
+        animation: mover 6s linear infinite;
+    }
+
+.bola7{
+      
+        margin-left: 2000px;
+        margin-top: 10px;
+        animation: mover 7s linear infinite;
+    }
+
+.bola8{
+        margin-left: 2100px;
+        margin-top: -600px;
+        animation: mover 4s linear infinite;
+    }
+
+.bola9{
+        margin-left: 2010px;
+        margin-top: 2px;
+        animation: mover 7s linear infinite;
+    }
+
+
+.bola10{
+        margin-left: 210px;
+        margin-top: 49px;
+        animation: mover 9s linear infinite;
+    }
+
+.bola11{
+        margin-left: 310px;
+        margin-top: 7px;
+        animation: mover 5s linear infinite;
+    }
+
+.bola12{
+        margin-left: 230px;
+        margin-top: 20px;
+        animation: mover 6s linear infinite;
+    }
+
+.bola13{
+        margin-left: 430px;
+        margin-top: 50px;
+        animation: mover 8s linear infinite;
+    }
+
+.bola14{
+        margin-left: 630px;
+        margin-top: 60px;
+        animation: mover 3s linear infinite;
+    }
+
+.bola15{
+        margin-left: 630px;
+        margin-top: 70px;
+        animation: mover 12s linear infinite;
+    }
+
+.bola16{
+        margin-left: 510px;
+        margin-top: 10px;
+        animation: mover 10s linear infinite;
+    }
+
+.bola17{
+        margin-left: 2430px;
+        margin-top: 9px;
+        animation: mover 5s linear infinite;
+    }
+
+.bola18{
+        margin-left: 1300px;
+        margin-top: 8px;
+        animation: mover 7s linear infinite;
+    }
+
+.bola19{
+        margin-left: 1000px;
+        margin-top: 10px;
+        animation: mover 9s linear infinite;
+    }
+
+.bola20{
+        margin-left: 950px;
+        margin-top: 10px;
+        animation: mover 6s linear infinite;
+    }
+
+button{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border:2px solid chartreuse;
+    color: white;
+    font-size: 10px;
+    border-radius: 50px;
+    margin-left: 840px;
+    top: 550px;
+}
+
+img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid chartreuse;
+    margin-left: 950px;
+    margin-top: -40px;
+}
+@keyframes erro {
+
+    0%{
+        opacity: 1;
+        transform: scale(1) rotate(5deg);
+    }
+
+    50%{
+        opacity: 0.3;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) rotate(-5deg);
+    }
+}   
+
+
+@keyframes mover {
+
+    0%{
+        transform: translate(0) translateY(0px);
+    }
+5%{
+    transform: translate(20px) translateY(30px);
+}
+15%{
+    transform: translate(50px) translateY(100px);
+}
+25%{
+    transform: translate(40px) translateY(100px);
+}
+    50%{
+        transform: translate(400px) translateY(100px);
+    }
+
+75%{
+    transform: translate(400px) translateY(200px);
+}
+    100% {
+        transform: translate(0) translateY(0px);
+    }
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
