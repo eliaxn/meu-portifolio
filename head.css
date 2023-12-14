@@ -1,6 +1,8 @@
 main{
   width: 100vw;
   height: 100vh;
+  animation: opacy 4s ease-in-out ;
+  
   
 }
 header{
@@ -10,6 +12,7 @@ header{
     overflow: hidden;
     transition: trasform 0.3s ease-in-out;
     transform-origin: top center;
+    
     
 }
 
@@ -40,6 +43,9 @@ header > h3{
     animation: erro 8s ease-in-out infinite;
 }
 
+h3:hover{
+    color: greenyellow;
+}
 div{
     width: 10px;
     height: 10px;
@@ -185,8 +191,13 @@ button{
     border-radius: 50px;
     margin-left: 840px;
     top: 550px;
+    transition: transform 0.10s ease-in-out;
+
 }
 
+button:hover{
+    transform: scale(1.1);
+}
 img{
     position: absolute;
     width: 50px;
@@ -195,7 +206,21 @@ img{
     border: 3px solid chartreuse;
     margin-left: 950px;
     margin-top: -40px;
+    transition: transform 0.10s ease-in-out;
+
 }
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.img2{
+    margin-left:1040px;
+}
+
+
+
+
 @keyframes erro {
 
     0%{
@@ -240,8 +265,125 @@ img{
     }
 }
 
+@keyframes opacy{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 10px;
+    }
+}
 section{
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(10, 15, 9);
+}
+
+   
+.t1{
+    color: greenyellow;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.10s ease-in-out;
+}
+
+.t1:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.iq{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    left: -850px;
+    margin-top: 155px;
+}
+
+
+.t2{
+    color:white;
+    margin-top: 170px;
+   margin-left: 190px;
+   
+   width: 500px;
+   border: 2px solid  greenyellow;
+   transition: transform 0.10s ease-in-out;
+ }
+
+ .t2:hover{
+    transform: scale(1.1) translatex(20px);
+
+}
+ .t3{
+    color:white;
+    margin-top: 40px;
+   margin-left: 1090px;
+   
+   width: 500px;
+   border: 2px solid  greenyellow;
+   transition: transform 0.10s ease-in-out;
+ }
+ 
+ .t3:hover{
+    transform: scale(1.1);
+}
+
+.t4{
+    color: greenyellow;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.10s ease-in-out;
+    margin-top: 90px;
+}
+
+.t4:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.aa{
+   position: absolute;
+    bottom: 500;
+    margin-top: 710px;
+     width: 200px;
+    height: 200px;
+    border:1px solid greenyellow;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -130px;
+}
+
+segund{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(10, 15, 9);
+}
+
+.t7{
+    color: greenyellow;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 500;
+    margin-top: 670px;
+    left: 830px;
+}
+
+.t8{
+    color: greenyellow;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.10s ease-in-out;
+    top: 40px;
 }
